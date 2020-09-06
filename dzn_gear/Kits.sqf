@@ -126,7 +126,7 @@ kit_fin_r = [
 
 cargo_kit_ammo_cargo = [
 	[["CUP_launch_NLAW_Loaded",2]],
-	[["hlc_30Rnd_762x39_m_ak_Valmet",40],["CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",20],["CUP_1Rnd_HE_M203",30],["HandGrenade",10],["DemoCharge_Remote_Mag",4]],
+	[["hlc_30Rnd_762x39_m_ak_Valmet",50],["CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",20],["CUP_1Rnd_HE_M203",30],["HandGrenade",10],["DemoCharge_Remote_Mag",4]],
 	[["ACE_Clacker",2]],
 	[]
 ];
@@ -134,7 +134,7 @@ cargo_kit_ammo_cargo = [
 cargo_kit_aid_cargo = [
 	[],
 	[],
-	[["ACE_fieldDressing",30],["ACE_packingBandage",30],["ACE_elasticBandage",30],["ACE_tourniquet",10],["ACE_quikclot",30],["ACE_morphine",10],["ACE_epinephrine",10]],
+	[["ACE_fieldDressing",50],["ACE_packingBandage",50],["ACE_elasticBandage",50],["ACE_tourniquet",20],["ACE_quikclot",50],["ACE_morphine",20],["ACE_epinephrine",20]],
 	[]
 ];
 
