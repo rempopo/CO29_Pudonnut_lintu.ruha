@@ -158,6 +158,45 @@
 ]
 
 ,[
+	"Patrol6" /* Zone Name */
+	,"EAST",true, /* Side, is Active */ [],[]
+	/* Groups: */
+	,[
+		[
+			1, /* Groups quantity */
+			/* Units */
+			[
+				["O_R_JTAC_F", [], "kit_rus_r"]
+				,["O_R_JTAC_F", [], "kit_rus_mg"]
+				,["O_R_JTAC_F", [], "kit_rus_gr"]
+				,["O_R_JTAC_F", [], "kit_rus_rpg26"]
+			]
+		]
+		,[
+			1, /* Groups quantity */
+			/* Units */
+			[
+				["O_R_JTAC_F", [], "kit_rus_rop"]
+				,["O_R_JTAC_F", [], "kit_rus_ar"]
+				,["O_R_JTAC_F", [], "kit_rus_rpg26"]
+			]
+		]
+		,[
+			1, /* Groups quantity */
+			/* Units */
+			[
+				["O_R_JTAC_F", [], "kit_rus_rop"]
+				,["O_R_JTAC_F", [], "kit_rus_ar"]
+				,["O_R_JTAC_F", [], "kit_rus_mm"]
+			]
+		]
+	]
+	/* Behavior: Speed, Behavior, Combat mode, Formation */
+	,["LIMITED","SAFE","YELLOW","WEDGE"]
+]
+
+
+,[
 	"Art" /* Zone Name */
 	,"EAST",true, /* Side, is Active */ [],[]
 	/* Groups: */
@@ -260,5 +299,5 @@
 	/* Behavior: Speed, Behavior, Combat mode, Formation */
 	,["NORMAL","COMBAT","RED","WEDGE"]
 	 /* (OPTIONAL) Activation condition */
-	,{ player inArea TRG1 }
+	,{ [TRG1, "", "> 3"] call dzn_fnc_ccPlayers }
 ]

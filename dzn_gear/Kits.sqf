@@ -58,11 +58,12 @@
 #define fin_h ["FDF_hel_m05","FDF_hel_m05_worn"]
 #define fin_g ["","CUP_G_ESS_BLK","CUP_G_Oakleys_Clr"]
 
+
 kit_fin_pl = [
 	["<EQUIPEMENT >>  ",fin_u,fin_v,"tf_rt1523g_bwmod","FDF_beret_border","CUP_G_PMC_RadioHeadset"],
 	["<PRIMARY WEAPON >>  ","hlc_rifle_RK62_ris","hlc_30Rnd_762x39_b_ak_Valmet",["CUP_muzzle_snds_KZRZP_AK762","KA_ANPEQ15_Black_IR","CUP_optic_ACOG2_PIP",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
-	["<HANDGUN WEAPON >>  ","CUP_hgun_Glock17_blk","CUP_17Rnd_9x19_glock17",["","","",""]],
+	["<HANDGUN WEAPON >>  ","rhsusf_weap_glock17g4","rhsusf_mag_17Rnd_9x19_FMJ",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS_L]],
 	["<VEST ITEMS >> ",[["hlc_30Rnd_762x39_m_ak_Valmet",7],["HANDGUN MAG",1],["HandGrenade",2]]],
@@ -73,7 +74,7 @@ kit_fin_sl = [
 	["<EQUIPEMENT >>  ",fin_u,fin_v,"tf_rt1523g_bwmod",fin_h,fin_g],
 	["<PRIMARY WEAPON >>  ","hlc_rifle_RK62_ris","hlc_30Rnd_762x39_b_ak_Valmet",["CUP_muzzle_snds_KZRZP_AK762","KA_ANPEQ15_Black_IR","CUP_optic_ACOG2_PIP",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
-	["<HANDGUN WEAPON >>  ","CUP_hgun_Glock17_blk","CUP_17Rnd_9x19_glock17",["","","",""]],
+	["<HANDGUN WEAPON >>  ","rhsusf_weap_glock17g4","rhsusf_mag_17Rnd_9x19_FMJ",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS_L]],
 	["<VEST ITEMS >> ",[["hlc_30Rnd_762x39_m_ak_Valmet",7],["HANDGUN MAG",1],["HandGrenade",2]]],
@@ -84,7 +85,7 @@ kit_fin_ftl = [
 	["<EQUIPEMENT >>  ",fin_u,fin_v,"B_Kitbag_rgr",fin_h,fin_g],
 	["<PRIMARY WEAPON >>  ","hlc_rifle_RK62_ris","hlc_30Rnd_762x39_b_ak_Valmet",["CUP_muzzle_snds_KZRZP_AK762","KA_ANPEQ15_Black_IR","CUP_optic_ACOG2_PIP",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
-	["<HANDGUN WEAPON >>  ","CUP_hgun_Glock17_blk","CUP_17Rnd_9x19_glock17",["","","",""]],
+	["<HANDGUN WEAPON >>  ","rhsusf_weap_glock17g4","rhsusf_mag_17Rnd_9x19_FMJ",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
 	["<VEST ITEMS >> ",[["hlc_30Rnd_762x39_m_ak_Valmet",7],["HANDGUN MAG",1],["HandGrenade",2]]],
@@ -95,7 +96,7 @@ kit_fin_ar = [
 	["<EQUIPEMENT >>  ",fin_u,"FDF_VEST_11","B_Kitbag_rgr",fin_h,fin_g],
 	["<PRIMARY WEAPON >>  ","CUP_lmg_PKMN","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",["CUP_muzzle_snds_KZRZP_PK","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
-	["<HANDGUN WEAPON >>  ","CUP_hgun_Glock17_blk","CUP_17Rnd_9x19_glock17",["","","",""]],
+	["<HANDGUN WEAPON >>  ","rhsusf_weap_glock17g4","rhsusf_mag_17Rnd_9x19_FMJ",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
 	["<VEST ITEMS >> ",[["HANDGUN MAG",1],["HandGrenade",2],["PRIMARY MAG",1]]],
@@ -117,11 +118,22 @@ kit_fin_r = [
 	["<EQUIPEMENT >>  ",fin_u,"FDF_VEST_11","B_Kitbag_rgr",fin_h,fin_g],
 	["<PRIMARY WEAPON >>  ","hlc_rifle_RK62_ris","hlc_30Rnd_762x39_b_ak_Valmet",["CUP_muzzle_snds_KZRZP_AK762","","CUP_optic_CompM2_low",""]],
 	["<LAUNCHER WEAPON >>  ","CUP_launch_NLAW_Loaded","CUP_NLAW_M",["","","",""]],
-	["<HANDGUN WEAPON >>  ","CUP_hgun_Glock17_blk","CUP_17Rnd_9x19_glock17",["","","",""]],
+	["<HANDGUN WEAPON >>  ","rhsusf_weap_glock17g4","rhsusf_mag_17Rnd_9x19_FMJ",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
 	["<VEST ITEMS >> ",[["HANDGUN MAG",1],["HandGrenade",2],["hlc_30Rnd_762x39_m_ak_Valmet",7]]],
 	["<BACKPACK ITEMS >> ",[["ACE_Clacker",1],["DemoCharge_Remote_Mag",2]]]
+];
+
+kit_fin_medic = [
+	["<EQUIPEMENT >>  ",fin_u,"FDF_VEST_11","B_Kitbag_rgr",fin_h,""],
+	["<PRIMARY WEAPON >>  ","hlc_rifle_RK62_ris","hlc_30Rnd_762x39_b_ak_Valmet",["CUP_muzzle_snds_KZRZP_AK762","","",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","rhsusf_weap_glock17g4","rhsusf_mag_17Rnd_9x19_FMJ",["","","",""]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
+	["<VEST ITEMS >> ",[["HANDGUN MAG",1],["HandGrenade",1],["hlc_30Rnd_762x39_m_ak_Valmet",5]]],
+	["<BACKPACK ITEMS >> ",[["ACE_personalAidKit",4],["ACE_surgicalKit",1],["ACE_elasticBandage",20],["ACE_fieldDressing",20],["ACE_packingBandage",10],["ACE_quikclot",20],["ACE_morphine",5],["ACE_epinephrine",5],["ACE_tourniquet",10]]]
 ];
 
 cargo_kit_ammo_cargo = [
@@ -134,7 +146,7 @@ cargo_kit_ammo_cargo = [
 cargo_kit_aid_cargo = [
 	[],
 	[],
-	[["ACE_fieldDressing",50],["ACE_packingBandage",50],["ACE_elasticBandage",50],["ACE_tourniquet",20],["ACE_quikclot",50],["ACE_morphine",20],["ACE_epinephrine",20]],
+	[["ACE_fieldDressing",60],["ACE_packingBandage",60],["ACE_elasticBandage",60],["ACE_tourniquet",30],["ACE_quikclot",60],["ACE_morphine",20],["ACE_epinephrine",20]],
 	[]
 ];
 
@@ -231,4 +243,13 @@ kit_rus_crew = [
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
 	["<VEST ITEMS >> ",[["CUP_HandGrenade_RGD5",2],["PRIMARY MAG",3]]],
 	["<BACKPACK ITEMS >> ",[]]
+];
+
+kit_rus_random = [
+    "kit_rus_r","kit_rus_r"
+    ,"kit_rus_gr"
+    ,"kit_rus_mg"
+    ,"kit_rus_ar","kit_rus_ar"
+	,"kit_rus_mm"
+	,"kit_rus_rpg26"
 ];

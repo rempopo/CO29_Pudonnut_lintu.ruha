@@ -19,3 +19,7 @@ A "1'1 Squad Leader@1'1"			TO "kit_fin_sl" KIT
 , A "1'3 Squad Leader@1'3"			TO "kit_fin_sl" KIT
 , A "1'6 Platoon Leader@1'6"			TO "kit_fin_pl" KIT
 , A "Platoon Sergeant"			TO "kit_fin_sl" KIT
+, A "Medic"					TO "kit_fin_medic" KIT
+
+
+
